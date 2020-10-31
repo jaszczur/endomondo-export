@@ -1,14 +1,14 @@
 {
   "name": "endomondo-export",
   "version": "1.0.0",
-  "description": "",
+  "description": "Command line Endomondo GPX exporter",
   "main": "app/index.js",
   "scripts": {
     "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Piotr Jaszczyk",
+  "license": "MIT",
   "dependencies": {
     "cross-fetch": "^3.0.6",
     "endomondo-api-handler": "^7.3.25"

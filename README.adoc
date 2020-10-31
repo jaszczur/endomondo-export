@@ -1,0 +1,14 @@
+= Endomondo GPX exporter
+
+As Endomondo is closing by the end of 2020 you'll probably want to export all your workouts. Later you can import them to any fitness tracker you want or just keep them locally.
+
+Tool exports only GPX files, so you have only raw workout data. In particular it doesn't export photos, comments, training plans, etc.
+
+== Usage
+
+Will export all workouts before given date:
+
+----
+nvm use
+node app YYYY-MM-DD login password
+----
